@@ -1,0 +1,21 @@
+{
+    "name": "menaem/hello",
+    "description": "echo hello",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Menaem\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdalmonaem",
+            "email": "abdalmonaem.gamal@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nesbot/carbon": "^2.51"
+    }
+}
